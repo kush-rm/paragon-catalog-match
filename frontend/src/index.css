@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth transitions for score badges */
+@layer utilities {
+  .transition-colors {
+    transition-property: background-color, border-color, color;
+    transition-duration: 150ms;
+  }
+}
