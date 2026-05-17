@@ -365,6 +365,8 @@ def match(
             "original_query":   query,
             "expanded_query":   expanded_query,
             "tokens_used":      tokens_used,
+            "input_tokens":     input_tokens,   # exposed for benchmark cost calc
+            "output_tokens":    output_tokens,  # exposed for benchmark cost calc
             "response_time_ms": response_time_ms,
             "customer_pattern": customer_pattern,
         },
